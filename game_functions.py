@@ -2,7 +2,7 @@ import pygame
 import serial
 from GameConstants import *
 
-arduinoData = serial.Serial("com6",9600)
+# arduinoData = serial.Serial("com6",9600)
 
 def drawRect(surface,rect,text,color):
     pygame.draw.rect(surface,color,rect)

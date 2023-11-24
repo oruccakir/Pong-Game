@@ -44,9 +44,8 @@ class PongGame:
 
     def play_game(self):
 
-        thread = threading.Thread(target=get_coordinates_and_draw,args=(self.game_screen,self.right_rect))
-        thread.start()
-
+        #thread = threading.Thread(target=get_coordinates_and_draw,args=(self.game_screen,self.right_rect))
+        #thread.start()
 
         while self.running:
 
@@ -140,7 +139,7 @@ class PongGame:
             
 
 
-        thread.join()
+        #thread.join()
 
 
 
